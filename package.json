@@ -1,0 +1,16 @@
+{
+  "name": "@hand-on-web/env-file-validator",
+  "version": "1.0.0",
+  "description": "Validate .env files against a schema — catch missing or broken config before your app starts",
+  "homepage": "https://www.handonweb.com",
+  "main": "index.js",
+  "bin": {
+    "env-validate": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js --env sample.env --schema sample.env.schema"
+  },
+  "keywords": ["env", "dotenv", "validator", "cli", "developer-tools"],
+  "author": "Hand On Web Ltd <outreach@handonweb.com>",
+  "license": "MIT"
+}
